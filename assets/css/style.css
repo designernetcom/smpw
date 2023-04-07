@@ -1222,6 +1222,9 @@ input {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
+.widget textarea {
+  border-color: transparent;
+}
 
 select:focus,
 .form-control:focus,
@@ -4622,12 +4625,12 @@ a.text-theme:hover,
 }
 
 .main-menu ul li.menu-item-has-children > a:after {
-  /* content: "\2b"; */
+  content: "";
   position: relative;
   font-family: var(--icon-font);
   margin-left: 5px;
   top: 0;
-  color: var(--theme-color);
+  color: var(--white-color);
 }
 
 .main-menu ul li:last-child {
@@ -4690,9 +4693,16 @@ a.text-theme:hover,
 .main-menu ul.sub-menu li {
   display: block;
   margin: 0 0;
-  padding: 0px 9px;
+  border-bottom: 1px solid rgb(61, 65, 80);
+  padding: 5px 30px;
 }
-
+.main-menu ul.sub-menu li:hover {
+  background-color: var(--theme-color);
+  color: var(--white-color);
+}
+.main-menu ul.sub-menu li a:hover  {
+ color: white !important;
+}
 .main-menu ul.sub-menu li.menu-item-has-children > a:after {
   content: "\f105";
   float: right;
@@ -4718,7 +4728,8 @@ a.text-theme:hover,
   display: inline-block;
   font-size: 0.9em;
   line-height: 1;
-  color: var(--theme-color);
+  background-color: var(--theme-color);
+  color: var(--white-color);
   font-weight: 700;
 }
 
@@ -5698,13 +5709,13 @@ a.text-theme:hover,
   margin: -0.19em 0 -0.19em 0;
 }
 
-.breadcumb-content {
-  max-width: 900px;
+.breadcumb-content text-center {
+  /* max-width: 900px; */
 }
 
 .breadcumb-wrapper {
   background-color: var(--title-color);
-  padding: 180px 0;
+  padding: 160px 0;
   overflow: hidden;
 }
 
@@ -5732,7 +5743,7 @@ a.text-theme:hover,
   .breadcumb-wrapper {
     padding: 140px 0;
   }
-  .breadcumb-content {
+  .breadcumb-content text-center {
     max-width: 760px;
   }
 }
@@ -6649,7 +6660,7 @@ ul.comment-list .as-comment-item:first-child > .as-post-comment {
 }
 
 .as-hero-wrapper .play-btn {
-  --icon-size: 80px;
+  --icon-size: 60px;
 }
 
 .as-hero-wrapper .slick-dots {
@@ -14645,6 +14656,7 @@ input.style-radious {
 
 .main-menu ul.sub-menu,
 .main-menu ul.mega-menu {
+  padding: 0px;
   margin-top: 0;
   border-radius: 0;
   -webkit-transform: scaleY(0);
@@ -16337,14 +16349,22 @@ input.style-radious {
 .main-menu li.active .sub-menu  a {
   color: var(--white-color);
 }
+.main-menu li.active .sub-menu li.active {
+  background-color: var(--theme-color);
+}
 .main-menu li.active .sub-menu li.active  a {
-  color: var(--theme-color);
+  color: var(--white-color);
+  /* color: var(--theme-color); */
 }
 .main-menu li.active .sub-menu li.active .sub-menu a {
   color: var(--white-color);
 }
 .main-menu li.active .sub-menu .sub-menu li.active  a {
-  color: var(--theme-color);
+  color: var(--white-color);
+  /* color: var(--theme-color); */
+}
+.main-menu li.active .sub-menu .sub-menu li.active {
+  background-color: var(--theme-color);
 }
 
 .as-mobile-menu li.active a {
@@ -16365,24 +16385,6 @@ input.style-radious {
 }
 
 
-as-mobile-menu
-/* .sticky-wrapper .menu-item-has-children.active .sub-menu  a {
-  color: var(--white-color);
-} */
-/* .sticky-wrapper .menu-item-has-children.active a  {
-  color: var(--theme-color);
-} */
-
-/* .menu-area li.active a  {
-  color: #0558b6;
- }
- .sticky-wrapper .sub-menu li.active a {
-  color: var(--theme-color);
-} */
-
-.active1 a {
-  /* color: var(--theme-color); */
-}
 
 .header-layout5 .as-menu-toggle {
   margin: 20px 0;
@@ -16948,7 +16950,7 @@ as-mobile-menu
 .hero-5 .play-btn {
   position: absolute;
   top: 50%;
-  right: 10%;
+  right: 18%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -17009,9 +17011,9 @@ as-mobile-menu
 
 /* Medium Large devices */
 @media (max-width: 1399px) {
-  .hero-5 {
+  /* .hero-5 {
     padding-right: 40px;
-  }
+  } */
   .hero-5 .slick-dots {
     right: 10%;
   }
@@ -18429,6 +18431,15 @@ as-mobile-menu
     padding: 0;
     height: auto;
   }
+  .img-head {
+    display: none;
+  }
+
+}
+@media (max-width: 1200px) { 
+  .hero-5 .play-btn {
+    right: 15%;
+  }
 }
 
 /*------------------- Project -------------------*/
@@ -18563,3 +18574,20 @@ footer .about-text {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media (max-width: 768px) {
+
+  .page-img {
+    flex-wrap: wrap;
+  }
+}
+.img-text {
+  color: var(--title-color);
+  font-weight: 700;
+}
+td {
+  font-weight: 600;
+}
+th {
+  font-size: 18px;
+  font-weight: 800;
+}
