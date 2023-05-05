@@ -5023,6 +5023,7 @@ a.text-theme:hover,
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 10px;
+  border-radius: 4px;
 	line-height: 1;
   }
   
@@ -5322,10 +5323,58 @@ a.text-theme:hover,
 }
 
 .footer-wrapper .as-social a {
-  background-color: transparent;
+  /* background-color: transparent; */
   color: var(--white-color);
-  border: 1px solid var(--white-color);
+  /* border: 1px solid var(--white-color); */
 }
+.footer-wrapper .as-social a i {
+	font-size: 17px;
+	color: #ffffff;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+  }
+
+.footer-wrapper .as-social .facebook {
+	background-color: #3e68c1;
+	/* padding: 5px 8px; */
+  }
+.footer-wrapper .as-social .whatsapp {
+	background-color: #1fbf1f;
+	/* padding: 5px 8px; */
+  }
+.footer-wrapper .as-social .linkedin {
+	background-color: #0a66c2;
+	/* padding: 5px 8px; */
+  }
+.footer-wrapper .as-social .instagram {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	/* padding: 5px 8px; */
+  }
+.footer-wrapper .as-social .facebook:hover {
+	background-color: #fff;
+  }
+.footer-wrapper .as-social .facebook:hover i {
+	color: #3e68c1;
+  }
+   
+.footer-wrapper .as-social .whatsapp:hover {
+	background-color: #fff;
+  }
+  .footer-wrapper .as-social .whatsapp:hover i {
+   color: #1fbf1f;
+  }
+  .footer-wrapper .as-social  .linkedin:hover {
+	background-color: #fff;
+  }
+.footer-wrapper .as-social .linkedin:hover i {
+	color: #0a66c2;
+  }
+.footer-wrapper .as-social .instagram:hover{
+	background: #fff;
+  }
+  .footer-wrapper .as-social .instagram:hover i {
+	color: #d6249f;
+  }
 
 .footer-wrapper .as-social a:hover {
   background-color: var(--theme-color);
@@ -5334,7 +5383,7 @@ a.text-theme:hover,
 
 .widget-area {
   padding-top: var(--section-space);
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 
 .copyright-wrap {
@@ -6829,8 +6878,8 @@ ul.comment-list .as-comment-item:first-child > .as-post-comment {
 .as-hero-bg img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  filter: brightness(50%);
+  /* object-fit: cover; */
+  /* filter: brightness(50%); */
 }
 
 .hero-subtitle {
@@ -7535,14 +7584,14 @@ ul.comment-list .as-comment-item:first-child > .as-post-comment {
 
 .call-btn {
   color: var(--theme-color);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   font-family: var(--title-font);
   display: inline-block;
 }
 
 .call-btn .play-btn {
-  --icon-size: 45px;
+  --icon-size: 35px;
   font-size: 14px;
   margin-right: 15px;
 }
@@ -7557,7 +7606,7 @@ ul.comment-list .as-comment-item:first-child > .as-post-comment {
 }
 
 .call-btn .fa-phone {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .call-btn .btn-title {
@@ -9984,7 +10033,9 @@ ul.comment-list .as-comment-item:first-child > .as-post-comment {
           align-items: center;
   gap: 15px 30px;
 }
-
+.btn-wrap .as-btn {
+  padding: 16px 20px;
+}
 /* Large devices */
 @media (max-width: 1199px) {
   p.mb-30 {
@@ -12614,7 +12665,7 @@ ul.comment-list .as-comment-item:first-child > .as-post-comment {
   transition: 0.4s ease-in-out;
   /* border: 3px solid var(--theme-color); */
   border-radius: 10px;
-  filter: brightness(70%)
+  filter: brightness(90%)
 }
    .helpdiv {
             display: flex;
@@ -17107,7 +17158,7 @@ input.style-radious {
 }
 
 .hero-slider-5 .as-hero-slide {
-  padding: 230px 0;
+  /* padding: 230px 0; */
 }
 
 .hero-style5,
@@ -17171,7 +17222,7 @@ input.style-radious {
     width: 40px;
   }
   .hero-slider-5 .as-hero-slide {
-    padding: 190px 0 190px 0;
+    /* padding: 190px 0 190px 0; */
   }
   .hero-style5 {
     padding-left: 20px;
@@ -17181,7 +17232,7 @@ input.style-radious {
 /* Large devices */
 @media (max-width: 1199px) {
   .hero-slider-5 .as-hero-slide {
-    padding: 150px 0 150px 0;
+    /* padding: 150px 0 150px 0; */
   }
   .hero-style5 {
     max-width: 600px;
@@ -17197,7 +17248,7 @@ input.style-radious {
     display: none;
   }
   .hero-slider-5 .as-hero-slide {
-    padding: 100px 0 100px 0;
+    /* padding: 100px 0 100px 0; */
   }
   .hero-style5 .hero-subtitle,
   .hero-style7 .hero-subtitle,
@@ -18740,4 +18791,9 @@ td {
 th {
   font-size: 18px;
   font-weight: 800;
+}
+@media (max-width: 400px) {
+  .header-top{
+    display: none;
+  }
 }
