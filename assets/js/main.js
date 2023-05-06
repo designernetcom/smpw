@@ -340,7 +340,6 @@
                 {
                     breakpoint: 768,
                     settings: {
-                        arrows: d("sm-arrows") ? true : false,
                         dots: d("sm-dots") ? true : false,
                         slidesToShow: d("sm-slide-show")
                             ? d("sm-slide-show")
