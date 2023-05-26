@@ -5856,7 +5856,7 @@ a.text-theme:hover,
 
 .breadcumb-wrapper {
   background-color: var(--title-color);
-  padding: 160px 0;
+  padding: 100px 0;
   overflow: hidden;
 }
 
@@ -18834,4 +18834,16 @@ th {
 }
 .mobile-logo img {
   width: 250px;
+}
+.certificate-section {
+  padding: 60px 0px;
+}
+.organisation-team .sec-title {
+  color: white;
+} 
+.organisation-team .sub-title {
+  color: white;
+} 
+.organisation-team img {
+  border-radius: 8px;
 }
