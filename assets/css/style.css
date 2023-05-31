@@ -5100,6 +5100,7 @@ a.text-theme:hover,
 .header-layout1 .header-top {
   background-color: #F8F8F8;
   padding: 10px 0;
+  display: none;
 }
 
 .header-layout1 .header-top a:hover {
@@ -5176,7 +5177,7 @@ a.text-theme:hover,
 @media (max-width: 575px) {
   .logo-style1 {
     padding: 19px 40px 19px 0;
-    max-width: 180px;
+    max-width: 200px;
   }
 }
 
@@ -5464,6 +5465,7 @@ a.text-theme:hover,
 .footer-layout1 .copyright-wrap {
   padding: 16px 0;
   background-color: #0E121D;
+  border-top: 2px solid rgb(85, 80, 80);
 }
 
 .as-widget-contact {
@@ -5856,7 +5858,7 @@ a.text-theme:hover,
 
 .breadcumb-wrapper {
   background-color: var(--title-color);
-  padding: 100px 0;
+  padding: 75px 0;
   overflow: hidden;
 }
 
@@ -18830,10 +18832,10 @@ th {
   padding: 60px 0px;
 }
 .logo-style1 img  {
-  width: 240px;
+  width: 250px;
 }
 .mobile-logo img {
-  width: 250px;
+  width: 260px;
 }
 .certificate-section {
   padding: 60px 0px;
@@ -18846,4 +18848,11 @@ th {
 } 
 .organisation-team img {
   border-radius: 8px;
+}
+.gallery-section {
+  padding: 60px 0px;
+}
+.gallery-section img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px 0px;
 }
