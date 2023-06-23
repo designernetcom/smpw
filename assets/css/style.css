@@ -5145,12 +5145,12 @@ a.text-theme:hover,
 }
 .logo-style4:after {
   content: '';
-  height: 70px;
+  height: 80px;
   width: 2000px;
   position: absolute;
   /* bottom: 0; */
   right: -850px;
-  background-color: #0e121d;
+  background-color: var(--theme-color);
   z-index: -1;
   -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5208,12 +5208,12 @@ a.text-theme:hover,
   }
   .logo-style4:after {
     content: '';
-    height: 70px;
+    height: 60px;
     width: 2000px;
     position: absolute;
     /* bottom: 0; */
     right: -450px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5238,7 +5238,7 @@ a.text-theme:hover,
     position: absolute;
     /* bottom: 0; */
     right: -750px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5260,7 +5260,7 @@ a.text-theme:hover,
     position: absolute;
     /* bottom: 0; */
     right: -630px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5285,7 +5285,7 @@ a.text-theme:hover,
     position: absolute;
     /* bottom: 0; */
     right: -600px;
-    background-color: #0e121d;
+    background-color:var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5308,7 +5308,7 @@ a.text-theme:hover,
     position: absolute;
     /* bottom: 0; */
     right: -550px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5326,12 +5326,12 @@ a.text-theme:hover,
   }
   .logo-style4:after {
     content: '';
-    height: 70px;
+    height: 60px;
     width: 2000px;
     position: absolute;
     /* bottom: 0; */
     right: -500px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5351,12 +5351,12 @@ a.text-theme:hover,
   }
   .logo-style4:after {
     content: '';
-    height: 70px;
+    height: 60px;
     width: 2000px;
     position: absolute;
     /* bottom: 0; */
     right: -420px;
-    background-color: #0e121d;
+    background-color:var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5373,12 +5373,12 @@ a.text-theme:hover,
   }
   .logo-style4:after {
     content: '';
-    height: 70px;
+    height: 60px;
     width: 2000px;
     position: absolute;
     /* bottom: 0; */
     right: -380px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5401,12 +5401,12 @@ a.text-theme:hover,
   }
   .logo-style4:after {
     content: '';
-    height: 70px;
+    height: 60px;
     width: 2000px;
     position: absolute;
     /* bottom: 0; */
     right: -340px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5424,12 +5424,12 @@ a.text-theme:hover,
   }
   .logo-style4:after {
     content: '';
-    height: 70px;
+    height: 60px;
     width: 2000px;
     position: absolute;
     /* bottom: 0; */
     right: -300px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -5454,12 +5454,12 @@ a.text-theme:hover,
   .logo-style4:after {
     
     content: '';
-    height: 70px;
+    height: 60px;
     width: 2000px;
     position: absolute;
     /* bottom: 0; */
     right: -270px;
-    background-color: #0e121d;
+    background-color: var(--theme-color);
     z-index: -1;
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 100%, 0% 100%);
@@ -19151,4 +19151,17 @@ th {
 }
 .about-home {
   padding-top: 90px;
+}
+.service-block h6 {
+  margin-top: 15px;
+
+  font-weight: 700;
+    font-size: 23px;
+    text-decoration: 2px underline;
+
+}
+.service-block {
+ text-align: center;
+ /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
 }
