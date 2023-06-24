@@ -261,15 +261,15 @@
         asSlide.slick({
             dots: d("dots") ? true : false,
             fade: d("fade") ? true : false,
-            arrows: d("arrows") ? true : false,
+            arrows: d("arrows") ? true : true,
             speed: d("speed") ? d("speed") : 1000,
             asNavFor: d("asnavfor") ? d("asnavfor") : false,
             autoplay: d("autoplay") == false ? false : true,
             infinite: d("infinite") == false ? false : true,
-            slidesToShow: d("slide-show") ? d("slide-show") : 1,
+            slidesToShow: d("slide-show") ? d("slide-show") : 6,
             adaptiveHeight: d("adaptive-height") ? true : false,
             centerMode: d("center-mode") ? true : false,
-            autoplaySpeed: d("autoplay-speed") ? d("autoplay-speed") : 8000,
+            autoplaySpeed: d("autoplay-speed") ? d("autoplay-speed") : 3000,
             centerPadding: d("center-padding") ? d("center-padding") : "0",
             focusOnSelect: d("focuson-select") == false ? false : true,
             pauseOnFocus: d("pauseon-focus") ? true : false,
@@ -288,7 +288,7 @@
                 {
                     breakpoint: 1600,
                     settings: {
-                        arrows: d("xl-arrows") ? true : false,
+                        arrows: d("xl-arrows") ? true : true,
                         dots: d("xl-dots") ? true : false,
                         slidesToShow: d("xl-slide-show")
                             ? d("xl-slide-show")
@@ -300,7 +300,7 @@
                 {
                     breakpoint: 1400,
                     settings: {
-                        arrows: d("ml-arrows") ? true : false,
+                        arrows: d("ml-arrows") ? true : true,
                         dots: d("ml-dots") ? true : false,
                         slidesToShow: d("ml-slide-show")
                             ? d("ml-slide-show")
@@ -312,7 +312,7 @@
                 {
                     breakpoint: 1200,
                     settings: {
-                        arrows: d("lg-arrows") ? true : false,
+                        arrows: d("lg-arrows") ? true : true,
                         dots: d("lg-dots") ? true : false,
                         slidesToShow: d("lg-slide-show")
                             ? d("lg-slide-show")
@@ -326,11 +326,11 @@
                 {
                     breakpoint: 992,
                     settings: {
-                        arrows: d("md-arrows") ? true : false,
+                        arrows: d("md-arrows") ? true : true,
                         dots: d("md-dots") ? true : false,
                         slidesToShow: d("md-slide-show")
                             ? d("md-slide-show")
-                            : 1,
+                            : 3,
                         centerMode: d("md-center-mode")
                             ? d("md-center-mode")
                             : false,
@@ -340,7 +340,8 @@
                 {
                     breakpoint: 768,
                     settings: {
-                        dots: d("sm-dots") ? true : false,
+                        arrows: d("xs-arrows") ? true : true,
+                        dots: d("sm-dots") ? true : true,
                         slidesToShow: d("sm-slide-show")
                             ? d("sm-slide-show")
                             : 1,
@@ -353,7 +354,7 @@
                 {
                     breakpoint: 576,
                     settings: {
-                        arrows: d("xs-arrows") ? true : false,
+                        arrows: d("xs-arrows") ? true : true,
                         dots: d("xs-dots") ? true : false,
                         slidesToShow: d("xs-slide-show")
                             ? d("xs-slide-show")
