@@ -759,7 +759,7 @@ ul.wp-block-rss a {
   border-radius: 0;
 }
  .btn-cta:hover {
-  background-color: #0558b6;
+  background-color: var(--theme-color);
   color: white;
 }
 
@@ -4574,7 +4574,7 @@ a.text-theme:hover,
   right: 0;
   left: 0;
   background-color: var(--title-color);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
   margin-top: 0;
 }
 
@@ -4694,26 +4694,34 @@ a.text-theme:hover,
 .main-menu ul.sub-menu li {
   display: block;
   margin: 0 0;
-  border-bottom: 1px solid rgb(61, 65, 80);
-  padding: 5px 30px;
+  border-bottom: 1px solid var(--title-color);
+  /* padding: 5px 30px; */
 }
 .main-menu ul.sub-menu li:hover {
   background-color: var(--theme-color);
   color: var(--white-color);
 }
-.main-menu ul.sub-menu li a:hover  {
- color: white !important;
+.main-menu ul.sub-menu li:hover  {
+ color: white;
 }
 .main-menu ul.sub-menu li.menu-item-has-children > a:after {
   content: "\f105";
   float: right;
   top: 1px;
 }
+.main-menu ul.sub-menu li:hover a {
+  color: white;
+}
+.main-menu ul.sub-menu li a:hover {
+  color: white;
+}
 
 .main-menu ul.sub-menu li a {
   position: relative;
   /* padding-left: 23px; */
-  text-transform: capitalize;
+  text-transform: capitalize; 
+  padding: 5px 30px;
+  color: var(--title-color);
 }
 
 .main-menu ul.sub-menu li a:before {
@@ -5748,7 +5756,7 @@ a.text-theme:hover,
 
 .footer-layout1 .copyright-wrap {
   padding: 16px 0;
-  background-color: var(--title-color);
+  /* background-color: var(--title-color); */
   border-top: 2px solid rgb(85, 80, 80);
 }
 
@@ -15161,6 +15169,7 @@ input.style-radious {
           transform-origin: top center;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
+  background-color: white;
 }
 
 .main-menu ul.mega-menu {
@@ -19172,4 +19181,7 @@ th {
 }
 .awards-sec img:hover {
   transform: scale(1)
+}
+.main-menu ul.sub-menu li a:hover {
+  color: white !important;
 }
